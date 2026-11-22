@@ -1,0 +1,20 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.1",
+  "cpu_model": "Intel(R) Core(TM) i5-1035G1",
+  "physical_cores": 4,
+  "logical_processors": 8,
+  "ram_bytes": 8355045376,
+  "ram_mb": 7967.99,
+  "numpy": "2.5.4",
+  "h5py": "3.16.0",
+  "Pillow": "13.0.0",
+  "opencv": "5.0.0",
+  "psutil": "7.2.2",
+  "native_thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

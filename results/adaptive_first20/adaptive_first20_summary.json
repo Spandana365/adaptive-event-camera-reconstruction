@@ -1,0 +1,1885 @@
+{
+  "base_only_control": {
+    "code_value_normalization": "divide initialization and matched reference code values by 65535",
+    "initialization_reference_key": "image000000000",
+    "initialization_timestamp": 1672464127.347929,
+    "mean_base_only_psnr": 46.03718073346107,
+    "mean_base_only_ssim": 0.9592080842093642,
+    "mean_event_updated_psnr": 46.83562486007351,
+    "mean_event_updated_ssim": 0.9655459692016033,
+    "mean_psnr_delta_vs_base": 0.7984441266124392,
+    "mean_ssim_delta_vs_base": 0.00633788499223904,
+    "method": "compare the unchanged initialization image against each output's same matched reference",
+    "metric_data_range": 1.0,
+    "metric_source": "original uint16 initialization reference, not a reconstructed or independently normalized image",
+    "outputs_equal_psnr": 0,
+    "outputs_equal_ssim": 0,
+    "outputs_improved_psnr": 20,
+    "outputs_improved_ssim": 20,
+    "per_output": [
+      {
+        "base_only_psnr": 53.25099885793431,
+        "base_only_ssim": 0.9939151927441765,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 53.51197113979974,
+        "event_updated_ssim": 0.9943253674483041,
+        "matched_reference_key": "image000000002",
+        "output_index": 0,
+        "psnr_delta_vs_base": 0.26097228186542765,
+        "ssim_delta_vs_base": 0.00041017470412763046
+      },
+      {
+        "base_only_psnr": 50.423099305752416,
+        "base_only_ssim": 0.9880276083141232,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 50.813404248707876,
+        "event_updated_ssim": 0.9891726439738633,
+        "matched_reference_key": "image000000003",
+        "output_index": 1,
+        "psnr_delta_vs_base": 0.3903049429554599,
+        "ssim_delta_vs_base": 0.0011450356597401123
+      },
+      {
+        "base_only_psnr": 48.64840009597084,
+        "base_only_ssim": 0.9816101810956822,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 49.11592038295257,
+        "event_updated_ssim": 0.9836328120611461,
+        "matched_reference_key": "image000000004",
+        "output_index": 2,
+        "psnr_delta_vs_base": 0.4675202869817241,
+        "ssim_delta_vs_base": 0.0020226309654638452
+      },
+      {
+        "base_only_psnr": 47.4905021685573,
+        "base_only_ssim": 0.9753117957851735,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 48.050735736585175,
+        "event_updated_ssim": 0.9783209106418109,
+        "matched_reference_key": "image000000005",
+        "output_index": 3,
+        "psnr_delta_vs_base": 0.5602335680278756,
+        "ssim_delta_vs_base": 0.0030091148566374626
+      },
+      {
+        "base_only_psnr": 46.66959918694818,
+        "base_only_ssim": 0.9694433936081381,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 47.31421535346034,
+        "event_updated_ssim": 0.9734762941111181,
+        "matched_reference_key": "image000000006",
+        "output_index": 4,
+        "psnr_delta_vs_base": 0.6446161665121579,
+        "ssim_delta_vs_base": 0.004032900502979997
+      },
+      {
+        "base_only_psnr": 46.66959918694818,
+        "base_only_ssim": 0.9694433936081381,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 47.47395763401908,
+        "event_updated_ssim": 0.9742981340792528,
+        "matched_reference_key": "image000000006",
+        "output_index": 5,
+        "psnr_delta_vs_base": 0.8043584470708964,
+        "ssim_delta_vs_base": 0.004854740471114671
+      },
+      {
+        "base_only_psnr": 46.039153062908646,
+        "base_only_ssim": 0.9638104328683229,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 46.850909833750464,
+        "event_updated_ssim": 0.969386260914602,
+        "matched_reference_key": "image000000007",
+        "output_index": 6,
+        "psnr_delta_vs_base": 0.8117567708418179,
+        "ssim_delta_vs_base": 0.0055758280462790966
+      },
+      {
+        "base_only_psnr": 45.48000537078572,
+        "base_only_ssim": 0.9583172686896356,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 46.296012177889274,
+        "event_updated_ssim": 0.9645825026338324,
+        "matched_reference_key": "image000000008",
+        "output_index": 7,
+        "psnr_delta_vs_base": 0.8160068071035553,
+        "ssim_delta_vs_base": 0.0062652339441967575
+      },
+      {
+        "base_only_psnr": 45.48000537078572,
+        "base_only_ssim": 0.9583172686896356,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 46.382333108204094,
+        "event_updated_ssim": 0.9651690075747299,
+        "matched_reference_key": "image000000008",
+        "output_index": 8,
+        "psnr_delta_vs_base": 0.9023277374183749,
+        "ssim_delta_vs_base": 0.006851738885094272
+      },
+      {
+        "base_only_psnr": 45.01845927003531,
+        "base_only_ssim": 0.9531329929467334,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.87096624656646,
+        "event_updated_ssim": 0.9602658123797052,
+        "matched_reference_key": "image000000009",
+        "output_index": 9,
+        "psnr_delta_vs_base": 0.8525069765311528,
+        "ssim_delta_vs_base": 0.0071328194329718375
+      },
+      {
+        "base_only_psnr": 45.01845927003531,
+        "base_only_ssim": 0.9531329929467334,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.92067760483054,
+        "event_updated_ssim": 0.9606146771555596,
+        "matched_reference_key": "image000000009",
+        "output_index": 10,
+        "psnr_delta_vs_base": 0.9022183347952293,
+        "ssim_delta_vs_base": 0.0074816842088262225
+      },
+      {
+        "base_only_psnr": 45.01845927003531,
+        "base_only_ssim": 0.9531329929467334,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.96656387325248,
+        "event_updated_ssim": 0.9609573232245454,
+        "matched_reference_key": "image000000009",
+        "output_index": 11,
+        "psnr_delta_vs_base": 0.9481046032171747,
+        "ssim_delta_vs_base": 0.007824330277812042
+      },
+      {
+        "base_only_psnr": 44.61181129522092,
+        "base_only_ssim": 0.9481622778309077,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.4918411501331,
+        "event_updated_ssim": 0.9560809186239295,
+        "matched_reference_key": "image000000010",
+        "output_index": 12,
+        "psnr_delta_vs_base": 0.8800298549121806,
+        "ssim_delta_vs_base": 0.007918640793021847
+      },
+      {
+        "base_only_psnr": 44.61181129522092,
+        "base_only_ssim": 0.9481622778309077,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.527350683351635,
+        "event_updated_ssim": 0.9563656151985518,
+        "matched_reference_key": "image000000010",
+        "output_index": 13,
+        "psnr_delta_vs_base": 0.9155393881307177,
+        "ssim_delta_vs_base": 0.008203337367644115
+      },
+      {
+        "base_only_psnr": 44.61181129522092,
+        "base_only_ssim": 0.9481622778309077,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.56385710934603,
+        "event_updated_ssim": 0.9566526508344808,
+        "matched_reference_key": "image000000010",
+        "output_index": 14,
+        "psnr_delta_vs_base": 0.952045814125114,
+        "ssim_delta_vs_base": 0.008490373003573137
+      },
+      {
+        "base_only_psnr": 44.61181129522092,
+        "base_only_ssim": 0.9481622778309077,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.59903403544952,
+        "event_updated_ssim": 0.9569287960325444,
+        "matched_reference_key": "image000000010",
+        "output_index": 15,
+        "psnr_delta_vs_base": 0.9872227402286029,
+        "ssim_delta_vs_base": 0.008766518201636764
+      },
+      {
+        "base_only_psnr": 44.272407267910125,
+        "base_only_ssim": 0.9434792646551066,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.191517087799994,
+        "event_updated_ssim": 0.9522604836043221,
+        "matched_reference_key": "image000000011",
+        "output_index": 16,
+        "psnr_delta_vs_base": 0.9191098198898686,
+        "ssim_delta_vs_base": 0.008781218949215575
+      },
+      {
+        "base_only_psnr": 44.272407267910125,
+        "base_only_ssim": 0.9434792646551066,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.22517432752601,
+        "event_updated_ssim": 0.9525423415336544,
+        "matched_reference_key": "image000000011",
+        "output_index": 17,
+        "psnr_delta_vs_base": 0.952767059615887,
+        "ssim_delta_vs_base": 0.009063076878547793
+      },
+      {
+        "base_only_psnr": 44.272407267910125,
+        "base_only_ssim": 0.9434792646551066,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.257512275312266,
+        "event_updated_ssim": 0.9528110340494664,
+        "matched_reference_key": "image000000011",
+        "output_index": 18,
+        "psnr_delta_vs_base": 0.9851050074021401,
+        "ssim_delta_vs_base": 0.009331769394359868
+      },
+      {
+        "base_only_psnr": 44.272407267910125,
+        "base_only_ssim": 0.9434792646551066,
+        "event_update_improves_psnr": true,
+        "event_update_improves_ssim": true,
+        "event_updated_psnr": 45.28854319253355,
+        "event_updated_ssim": 0.9530757979566443,
+        "matched_reference_key": "image000000011",
+        "output_index": 19,
+        "psnr_delta_vs_base": 1.016135924623427,
+        "ssim_delta_vs_base": 0.009596533301537757
+      }
+    ],
+    "scored_output_count": 20,
+    "target_references_used_for_reconstruction": false,
+    "uses_same_metric_implementation_and_range": true
+  },
+  "comparison_validity": {
+    "comparison_domain": "uint16 stored-code values normalized by 65535 for PSNR/SSIM; not a radiometrically calibrated intensity comparison",
+    "contrast_threshold_note": "C=0.05 is fixed as a documented model assumption; metrics evaluate this setting and are not evidence that C is calibrated",
+    "decision": "shared assess_comparison_validity function; requires matching grayscale dimensions, finite uint16 code-domain reconstruction, and a nearest timestamp within tolerance",
+    "difference_image_policy": "no difference image is generated when comparison validity is false",
+    "invalid_reason_counts": {},
+    "metric_data_range": 1.0,
+    "metric_data_range_basis": "fixed nominal uint16 code range after division by 65535; the observed sequence maximum is not a calibrated white level",
+    "metric_output_count": 20,
+    "metric_source": "reconstruction_code_path uint16 PNG reloaded from disk compared to the matched HDF5 uint16 reference",
+    "metrics_available": true,
+    "nominal_uint16_code_range": [
+      0,
+      65535.0
+    ],
+    "observed_reference_code_range_across_dataset": [
+      0,
+      6940
+    ],
+    "panel_status_label": "Comparable (code domain)",
+    "psnr_ssim_implementation": "PSNR over the full image; SSIM uses an 11x11 Gaussian window with sigma=1.5, constants K1=0.01 and K2=0.03, data_range=1.0 after division by 65535",
+    "temporal_assumption": "HDF5 reference timestamps are nominal frame times; nearest-reference matching uses at most half the measured reference cadence",
+    "valid_comparison_count": 20
+  },
+  "contrast_threshold_log": 0.05,
+  "contrast_threshold_status": "assumption; not calibrated from this HDF5 metadata",
+  "data_file": "data\\5.h5",
+  "duration_seconds": 0.8000011444091797,
+  "empty_windows": 0,
+  "event_count": 5647823,
+  "event_polarity_counts": {
+    "false": 2769044,
+    "root_num_neg": 2769044,
+    "root_num_pos": 2878779,
+    "true": 2878779
+  },
+  "event_polarity_mapping": {
+    "evidence": "boolean counts match root num_pos/num_neg; official EventHDR loader maps ps to signed values with 2*ps-1",
+    "false": "negative; subtracts contrast_threshold_log from log intensity",
+    "true": "positive; adds contrast_threshold_log to log intensity"
+  },
+  "initialization_image_statistics": {
+    "display_u8": {
+      "dtype": "uint8",
+      "max": 255.0,
+      "mean": 28.948229166666668,
+      "min": 0.0,
+      "p01": 3.0,
+      "p50": 13.0,
+      "p99": 143.0,
+      "std": 33.93757331160871
+    },
+    "grayscale_code_value_state": {
+      "dtype": "float64",
+      "max": 4920.0,
+      "mean": 451.586132812526,
+      "min": 1.0000000000000004e-06,
+      "p01": 44.99999999999999,
+      "p50": 202.99999999999997,
+      "p99": 2221.0,
+      "std": 532.1295141906543
+    },
+    "native": {
+      "dtype": "uint16",
+      "max": 4920.0,
+      "mean": 451.5861328125,
+      "min": 0.0,
+      "p01": 45.0,
+      "p50": 203.0,
+      "p99": 2221.0,
+      "std": 532.1295141906764
+    }
+  },
+  "intensity_scaling": {
+    "code_artifact_quantization": "round to nearest uint16 code value before metric calculation",
+    "dataset_metadata_has_black_white_level_or_transfer_function": false,
+    "dataset_uint16_dtype_max": 65535.0,
+    "display_scale": 3974.0200000003097,
+    "display_scale_is_photometric_calibration": false,
+    "display_scale_source_percentile": 99.9,
+    "metric_code_scale": 65535.0,
+    "metric_code_scale_basis": "fixed uint16 representable code range [0, 65535], consistent with the official EventHDR loader's division by 65535; observed image extrema do not establish a calibrated white level",
+    "metric_code_scale_is_calibrated_white_level": false,
+    "metric_consequence": "PSNR/SSIM are code-domain comparisons under the documented uint16 normalization and nearest-frame timestamp rule; they do not measure calibrated radiance or validate the assumed event contrast threshold",
+    "metric_data_range_after_normalization": 1.0,
+    "metric_data_range_reason": "use the fixed nominal uint16 code range, not the lower observed sequence maximum or an independently selected per-reference range",
+    "metric_reconstruction_artifact": "reconstruction_code_path points to a saved uint16 grayscale PNG in raw reference code-value units; metrics are recomputed from the reloaded PNG",
+    "observed_reference_code_range_across_dataset": [
+      0,
+      6940
+    ],
+    "official_repository_sources": [
+      "https://github.com/yunhao-zou/EventHDR#dataset",
+      "https://github.com/yunhao-zou/EventHDR/blob/main/data_loader/dataset.py"
+    ],
+    "per_image_normalization": false,
+    "physical_calibration_verified": false,
+    "procedure": "derive one display-only scale from the 99.9th percentile of the legitimate initialization image and use it unchanged for base, reconstruction, and reference display conversion; retain raw grayscale code values in the persistent reconstruction state"
+  },
+  "method_label": "Persistent event-guided log-intensity state",
+  "method_used": "event_guided_log_intensity_update_in_reference_code_value_domain",
+  "notes": [
+    "Initialization uses the latest reference strictly earlier than the first event timestamp.",
+    "Each event is consumed once using a monotonically advancing timestamp cursor; events at a window end belong to the next window.",
+    "Matched evaluation references are never used to update the persistent reconstruction state.",
+    "Reference labels and dimensions alone do not establish photometric comparability.",
+    "The upstream EventHDR README describes paired high-speed HDR frames; its HDF5 data loader divides uint16 frames by 65535 and maps boolean event polarities to signed values.",
+    "The upstream normalization documents a model input convention, not a calibrated sensor white level or exposure interval."
+  ],
+  "outputs_generated": 20,
+  "reference_code_value_scale": 65535.0,
+  "reference_count": 401,
+  "reference_dtype": "uint16",
+  "reference_encoding_attributes": {
+    "event_idx": "0",
+    "size": "[240 320]",
+    "timestamp": "1672464127.347929",
+    "type": "greyscale"
+  },
+  "reference_image_type": "greyscale",
+  "reference_interval_ms": 2.000093460083008,
+  "reference_size": [
+    240,
+    320
+  ],
+  "sample_reference_statistics": {
+    "image000000000": {
+      "dtype": "uint16",
+      "max": 4920,
+      "mean": 451.5861328125,
+      "min": 0,
+      "percentiles_0_1_5_25_50_75_95_99_99_9_100": [
+        0.0,
+        45.0,
+        61.0,
+        116.0,
+        203.0,
+        600.0,
+        1453.0,
+        2221.0,
+        3974.0200000003097,
+        4920.0
+      ],
+      "representative_row_120": [
+        73,
+        83,
+        85,
+        92,
+        70,
+        273,
+        570,
+        308,
+        225,
+        223,
+        978
+      ]
+    },
+    "image000000001": {
+      "dtype": "uint16",
+      "max": 4940,
+      "mean": 452.97356770833335,
+      "min": 0,
+      "percentiles_0_1_5_25_50_75_95_99_99_9_100": [
+        0.0,
+        45.0,
+        62.0,
+        116.0,
+        204.0,
+        608.0,
+        1454.0,
+        2225.0099999999948,
+        3960.0,
+        4940.0
+      ],
+      "representative_row_120": [
+        82,
+        85,
+        79,
+        88,
+        90,
+        275,
+        646,
+        294,
+        283,
+        232,
+        964
+      ]
+    },
+    "image000000002": {
+      "dtype": "uint16",
+      "max": 4860,
+      "mean": 454.293046875,
+      "min": 0,
+      "percentiles_0_1_5_25_50_75_95_99_99_9_100": [
+        0.0,
+        45.0,
+        62.0,
+        116.0,
+        204.0,
+        615.0,
+        1456.0,
+        2212.0099999999948,
+        3990.0,
+        4860.0
+      ],
+      "representative_row_120": [
+        88,
+        85,
+        78,
+        94,
+        132,
+        274,
+        766,
+        283,
+        328,
+        225,
+        945
+      ]
+    },
+    "image000000010": {
+      "dtype": "uint16",
+      "max": 4800,
+      "mean": 466.6512109375,
+      "min": 0,
+      "percentiles_0_1_5_25_50_75_95_99_99_9_100": [
+        0.0,
+        45.0,
+        62.0,
+        117.0,
+        208.0,
+        694.0,
+        1471.0,
+        2186.0099999999948,
+        3982.010000000155,
+        4800.0
+      ],
+      "representative_row_120": [
+        92,
+        101,
+        103,
+        109,
+        229,
+        70,
+        931,
+        276,
+        198,
+        94,
+        908
+      ]
+    },
+    "image000000100": {
+      "dtype": "uint16",
+      "max": 3710,
+      "mean": 632.1288932291667,
+      "min": 0,
+      "percentiles_0_1_5_25_50_75_95_99_99_9_100": [
+        0.0,
+        42.0,
+        68.0,
+        137.0,
+        316.0,
+        1129.0,
+        1667.0,
+        2678.0099999999948,
+        3349.2010000000155,
+        3710.0
+      ],
+      "representative_row_120": [
+        69,
+        91,
+        134,
+        398,
+        67,
+        136,
+        162,
+        166,
+        1494,
+        822,
+        227
+      ]
+    },
+    "image000000400": {
+      "dtype": "uint16",
+      "max": 6690,
+      "mean": 1026.8902604166667,
+      "min": 0,
+      "percentiles_0_1_5_25_50_75_95_99_99_9_100": [
+        0.0,
+        74.0,
+        109.0,
+        251.0,
+        533.0,
+        1442.0,
+        3260.0,
+        4610.0,
+        5430.0,
+        6690.0
+      ],
+      "representative_row_120": [
+        2599,
+        2682,
+        2819,
+        2809,
+        701,
+        2670,
+        3000,
+        4000,
+        2843,
+        628,
+        525
+      ]
+    }
+  },
+  "sequence_id": "5",
+  "state_handling": {
+    "event_count_matches_cursor": true,
+    "event_intervals": "[window_start_timestamp, window_end_timestamp); end equals target_timestamp",
+    "events_processed_through_outputs": 101769,
+    "initialization_reference_key": "image000000000",
+    "initialization_reference_strictly_precedes_first_event": true,
+    "initialization_timestamp": 1672464127.347929,
+    "per_output_state_statistics": [
+      {
+        "changed_pixel_fraction": 0.10536458333333333,
+        "changed_pixel_fraction_from_initialization": 0.10536458333333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.122838541666667,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 142.0,
+            "std": 34.041788263730815
+          },
+          "key": "image000000002",
+          "native": {
+            "dtype": "uint16",
+            "max": 4860.0,
+            "mean": 454.293046875,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 204.0,
+            "p99": 2212.0099999999948,
+            "std": 533.6779156862661
+          },
+          "timestamp": 1672464127.351929
+        },
+        "mean_absolute_difference_from_initialization": 2.3498418749593712,
+        "output_index": 0,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_000.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.993619791666667,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 143.0,
+          "std": 34.03281024004054
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.3172238259585,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            202.99999999999997,
+            2234.009999999995
+          ],
+          "std": 533.7145920756548
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 451.586132812526,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            202.99999999999997,
+            2221.0
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.11239583333333333,
+        "changed_pixel_fraction_from_initialization": 0.196484375,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.2146484375,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 143.0,
+            "std": 34.07608569293788
+          },
+          "key": "image000000003",
+          "native": {
+            "dtype": "uint16",
+            "max": 4890.0,
+            "mean": 455.73572916666666,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 204.0,
+            "p99": 2224.0099999999948,
+            "std": 534.249437274982
+          },
+          "timestamp": 1672464127.353929
+        },
+        "mean_absolute_difference_from_initialization": 4.940965473811727,
+        "output_index": 1,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_001.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 29.035104166666667,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 144.0,
+          "std": 34.07820993974717
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.96276723177135,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            203.99999999999994,
+            2242.999999999999
+          ],
+          "std": 534.4415516240301
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.3172238259585,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            202.99999999999997,
+            2234.009999999995
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.11907552083333334,
+        "changed_pixel_fraction_from_initialization": 0.2716927083333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.3076171875,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 142.0,
+            "std": 34.135747228579234
+          },
+          "key": "image000000004",
+          "native": {
+            "dtype": "uint16",
+            "max": 4850.0,
+            "mean": 457.1558984375,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 205.0,
+            "p99": 2213.0,
+            "std": 535.0876237680513
+          },
+          "timestamp": 1672464127.355929
+        },
+        "mean_absolute_difference_from_initialization": 7.425615445958968,
+        "output_index": 2,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_002.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 29.04098958333333,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 144.0,
+          "std": 34.068010059840475
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 453.05479201889636,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            203.99999999999994,
+            2238.0024283585
+          ],
+          "std": 534.3108737785017
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.96276723177135,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            203.99999999999994,
+            2242.999999999999
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.118046875,
+        "changed_pixel_fraction_from_initialization": 0.3318098958333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.3993359375,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 143.0,
+            "std": 34.1708273189747
+          },
+          "key": "image000000005",
+          "native": {
+            "dtype": "uint16",
+            "max": 4850.0,
+            "mean": 458.627578125,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 206.0,
+            "p99": 2222.0,
+            "std": 535.6149407601404
+          },
+          "timestamp": 1672464127.357929
+        },
+        "mean_absolute_difference_from_initialization": 9.754155774672636,
+        "output_index": 3,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_003.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 29.029765625,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 143.0,
+          "std": 33.98151649008475
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.8806635054682,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            203.99999999999994,
+            2227.2409781090596
+          ],
+          "std": 532.9406088394462
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 453.05479201889636,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            203.99999999999994,
+            2238.0024283585
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.11772135416666667,
+        "changed_pixel_fraction_from_initialization": 0.37697916666666664,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.489765625,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 141.0,
+            "std": 34.21589846485941
+          },
+          "key": "image000000006",
+          "native": {
+            "dtype": "uint16",
+            "max": 4810.0,
+            "mean": 460.0479557291667,
+            "min": 0.0,
+            "p01": 46.0,
+            "p50": 206.0,
+            "p99": 2202.0,
+            "std": 536.4016897487854
+          },
+          "timestamp": 1672464127.3599288
+        },
+        "mean_absolute_difference_from_initialization": 11.948324241173394,
+        "output_index": 4,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_004.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 29.023515625,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 143.0,
+          "std": 33.885574827504115
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.79327739645174,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            204.51432626765347,
+            2223.0043836883506
+          ],
+          "std": 531.4554029842213
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.8806635054682,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            203.99999999999994,
+            2227.2409781090596
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.0918359375,
+        "changed_pixel_fraction_from_initialization": 0.406875,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.489765625,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 141.0,
+            "std": 34.21589846485941
+          },
+          "key": "image000000006",
+          "native": {
+            "dtype": "uint16",
+            "max": 4810.0,
+            "mean": 460.0479557291667,
+            "min": 0.0,
+            "p01": 46.0,
+            "p50": 206.0,
+            "p99": 2202.0,
+            "std": 536.4016897487854
+          },
+          "timestamp": 1672464127.3599288
+        },
+        "mean_absolute_difference_from_initialization": 13.403748415034446,
+        "output_index": 5,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_005.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.998541666666668,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 142.0,
+          "std": 33.782639663959515
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.40396555662187,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            204.99786379332465,
+            2215.037918063634
+          ],
+          "std": 529.8257560905705
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.79327739645174,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            204.51432626765347,
+            2223.0043836883506
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.09190104166666667,
+        "changed_pixel_fraction_from_initialization": 0.43287760416666665,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.585390625,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 141.0,
+            "std": 34.24916665810273
+          },
+          "key": "image000000007",
+          "native": {
+            "dtype": "uint16",
+            "max": 4840.0,
+            "mean": 461.5003515625,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 206.0,
+            "p99": 2196.0099999999948,
+            "std": 536.8477980107984
+          },
+          "timestamp": 1672464127.361929
+        },
+        "mean_absolute_difference_from_initialization": 14.784014592559606,
+        "output_index": 6,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_006.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.97479166666667,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 142.0,
+          "std": 33.674380020250766
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.01733610972724,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            45.311535466403015,
+            205.00000000000006,
+            2207.812665058352
+          ],
+          "std": 528.0423420472827
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.40396555662187,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            44.99999999999999,
+            204.99786379332465,
+            2215.037918063634
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.096875,
+        "changed_pixel_fraction_from_initialization": 0.4570182291666667,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.699830729166667,
+            "min": 1.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 140.0,
+            "std": 34.336755846391206
+          },
+          "key": "image000000008",
+          "native": {
+            "dtype": "uint16",
+            "max": 4830.0,
+            "mean": 463.3099609375,
+            "min": 8.0,
+            "p01": 45.0,
+            "p50": 207.0,
+            "p99": 2183.0299999999843,
+            "std": 538.1593192257566
+          },
+          "timestamp": 1672464127.363929
+        },
+        "mean_absolute_difference_from_initialization": 16.142387966466533,
+        "output_index": 7,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_007.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.936848958333332,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 141.0,
+          "std": 33.55978102686214
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 451.41786409313846,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            45.312007641101545,
+            205.00000000000006,
+            2194.0023073873704
+          ],
+          "std": 526.2374763695013
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 452.01733610972724,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            45.311535466403015,
+            205.00000000000006,
+            2207.812665058352
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.06897135416666667,
+        "changed_pixel_fraction_from_initialization": 0.4715755208333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.699830729166667,
+            "min": 1.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 140.0,
+            "std": 34.336755846391206
+          },
+          "key": "image000000008",
+          "native": {
+            "dtype": "uint16",
+            "max": 4830.0,
+            "mean": 463.3099609375,
+            "min": 8.0,
+            "p01": 45.0,
+            "p50": 207.0,
+            "p99": 2183.0299999999843,
+            "std": 538.1593192257566
+          },
+          "timestamp": 1672464127.363929
+        },
+        "mean_absolute_difference_from_initialization": 17.043646240612357,
+        "output_index": 8,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_008.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.92234375,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 141.0,
+          "std": 33.489495177072605
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 451.1787602943016,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            45.65901237603429,
+            205.46555569215434,
+            2191.999999999999
+          ],
+          "std": 525.0834302350097
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 451.41786409313846,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            45.312007641101545,
+            205.00000000000006,
+            2194.0023073873704
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.052109375,
+        "changed_pixel_fraction_from_initialization": 0.482421875,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.806979166666668,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 141.0,
+            "std": 34.365233207044675
+          },
+          "key": "image000000009",
+          "native": {
+            "dtype": "uint16",
+            "max": 4820.0,
+            "mean": 464.94244791666665,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 208.0,
+            "p99": 2194.0,
+            "std": 538.5169704075485
+          },
+          "timestamp": 1672464127.365929
+        },
+        "mean_absolute_difference_from_initialization": 17.7566512994021,
+        "output_index": 9,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_009.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.902513020833332,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 140.0,
+          "std": 33.427788915956235
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.86872403572306,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            205.56179076207047,
+            2186.029999999985
+          ],
+          "std": 524.1041947135501
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 451.1787602943016,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            45.65901237603429,
+            205.46555569215434,
+            2191.999999999999
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.039921875,
+        "changed_pixel_fraction_from_initialization": 0.4912239583333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.806979166666668,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 141.0,
+            "std": 34.365233207044675
+          },
+          "key": "image000000009",
+          "native": {
+            "dtype": "uint16",
+            "max": 4820.0,
+            "mean": 464.94244791666665,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 208.0,
+            "p99": 2194.0,
+            "std": 538.5169704075485
+          },
+          "timestamp": 1672464127.365929
+        },
+        "mean_absolute_difference_from_initialization": 18.240947579613135,
+        "output_index": 10,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_010.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.888151041666667,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 140.0,
+          "std": 33.376603273258944
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.6407541472669,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            205.64466096290593,
+            2178.8500176042844
+          ],
+          "std": 523.2757614910987
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.86872403572306,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            205.56179076207047,
+            2186.029999999985
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.03953125,
+        "changed_pixel_fraction_from_initialization": 0.498671875,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.806979166666668,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 141.0,
+            "std": 34.365233207044675
+          },
+          "key": "image000000009",
+          "native": {
+            "dtype": "uint16",
+            "max": 4820.0,
+            "mean": 464.94244791666665,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 208.0,
+            "p99": 2194.0,
+            "std": 538.5169704075485
+          },
+          "timestamp": 1672464127.365929
+        },
+        "mean_absolute_difference_from_initialization": 18.715537484029554,
+        "output_index": 11,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_011.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.8744140625,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 140.0,
+          "std": 33.33169899449775
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.41824476061396,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            205.64466096290593,
+            2176.139857803381
+          ],
+          "std": 522.5560247544915
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.6407541472669,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            205.64466096290593,
+            2178.8500176042844
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.039296875,
+        "changed_pixel_fraction_from_initialization": 0.5066145833333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.916106770833334,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 140.0,
+            "std": 34.427986903660226
+          },
+          "key": "image000000010",
+          "native": {
+            "dtype": "uint16",
+            "max": 4800.0,
+            "mean": 466.6512109375,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 208.0,
+            "p99": 2186.0099999999948,
+            "std": 539.4440119763378
+          },
+          "timestamp": 1672464127.367929
+        },
+        "mean_absolute_difference_from_initialization": 19.16047694755307,
+        "output_index": 12,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_012.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.862747395833335,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 139.0,
+          "std": 33.284442182649684
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.2353945276546,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2170.7084912435225
+          ],
+          "std": 521.8084551102036
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.41824476061396,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            205.64466096290593,
+            2176.139857803381
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.031484375,
+        "changed_pixel_fraction_from_initialization": 0.5119661458333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.916106770833334,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 140.0,
+            "std": 34.427986903660226
+          },
+          "key": "image000000010",
+          "native": {
+            "dtype": "uint16",
+            "max": 4800.0,
+            "mean": 466.6512109375,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 208.0,
+            "p99": 2186.0099999999948,
+            "std": 539.4440119763378
+          },
+          "timestamp": 1672464127.367929
+        },
+        "mean_absolute_difference_from_initialization": 19.548419000441996,
+        "output_index": 13,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_013.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.85234375,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 139.0,
+          "std": 33.24742932930057
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.0764859807594,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2167.0946645702993
+          ],
+          "std": 521.2207868609258
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.2353945276546,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2170.7084912435225
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.0317578125,
+        "changed_pixel_fraction_from_initialization": 0.5169010416666666,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.916106770833334,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 140.0,
+            "std": 34.427986903660226
+          },
+          "key": "image000000010",
+          "native": {
+            "dtype": "uint16",
+            "max": 4800.0,
+            "mean": 466.6512109375,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 208.0,
+            "p99": 2186.0099999999948,
+            "std": 539.4440119763378
+          },
+          "timestamp": 1672464127.367929
+        },
+        "mean_absolute_difference_from_initialization": 19.911094202855555,
+        "output_index": 14,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_014.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.841861979166666,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 139.0,
+          "std": 33.205951088304445
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.9037353378543,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2164.0099817016307
+          ],
+          "std": 520.5581989972562
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 450.0764859807594,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2167.0946645702993
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.0319140625,
+        "changed_pixel_fraction_from_initialization": 0.5225911458333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 29.916106770833334,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 140.0,
+            "std": 34.427986903660226
+          },
+          "key": "image000000010",
+          "native": {
+            "dtype": "uint16",
+            "max": 4800.0,
+            "mean": 466.6512109375,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 208.0,
+            "p99": 2186.0099999999948,
+            "std": 539.4440119763378
+          },
+          "timestamp": 1672464127.367929
+        },
+        "mean_absolute_difference_from_initialization": 20.32771618241186,
+        "output_index": 15,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_015.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.8295703125,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 139.0,
+          "std": 33.17092575887482
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.71170915642784,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2161.009999999994
+          ],
+          "std": 520.0118069166297
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.9037353378543,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2164.0099817016307
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.033229166666666664,
+        "changed_pixel_fraction_from_initialization": 0.52765625,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 30.023658854166666,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 139.00999999999476,
+            "std": 34.47228128856264
+          },
+          "key": "image000000011",
+          "native": {
+            "dtype": "uint16",
+            "max": 4850.0,
+            "mean": 468.3398697916667,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 209.0,
+            "p99": 2174.0099999999948,
+            "std": 540.1698519852187
+          },
+          "timestamp": 1672464127.3699288
+        },
+        "mean_absolute_difference_from_initialization": 20.66498086795216,
+        "output_index": 16,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_016.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.814361979166666,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 138.0,
+          "std": 33.136162104958004
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.4738061220512,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2154.5493000291694
+          ],
+          "std": 519.4339421475701
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.71170915642784,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2161.009999999994
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.03341145833333333,
+        "changed_pixel_fraction_from_initialization": 0.5320963541666667,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 30.023658854166666,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 139.00999999999476,
+            "std": 34.47228128856264
+          },
+          "key": "image000000011",
+          "native": {
+            "dtype": "uint16",
+            "max": 4850.0,
+            "mean": 468.3398697916667,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 209.0,
+            "p99": 2174.0099999999948,
+            "std": 540.1698519852187
+          },
+          "timestamp": 1672464127.3699288
+        },
+        "mean_absolute_difference_from_initialization": 21.0270386789472,
+        "output_index": 17,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_017.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.802513020833334,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 138.0,
+          "std": 33.09698652630215
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.27721512351746,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2152.0000000000005
+          ],
+          "std": 518.7803971847234
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.4738061220512,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2154.5493000291694
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.031640625,
+        "changed_pixel_fraction_from_initialization": 0.5366796875,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 30.023658854166666,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 139.00999999999476,
+            "std": 34.47228128856264
+          },
+          "key": "image000000011",
+          "native": {
+            "dtype": "uint16",
+            "max": 4850.0,
+            "mean": 468.3398697916667,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 209.0,
+            "p99": 2174.0099999999948,
+            "std": 540.1698519852187
+          },
+          "timestamp": 1672464127.3699288
+        },
+        "mean_absolute_difference_from_initialization": 21.390227714334443,
+        "output_index": 18,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_018.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.797395833333333,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 138.0,
+          "std": 33.0609840309286
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.1886963255036,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2148.9999999999995
+          ],
+          "std": 518.2074728337531
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.27721512351746,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2152.0000000000005
+          ]
+        }
+      },
+      {
+        "changed_pixel_fraction": 0.03201822916666667,
+        "changed_pixel_fraction_from_initialization": 0.5409114583333333,
+        "matched_reference": {
+          "display_u8": {
+            "dtype": "uint8",
+            "max": 255.0,
+            "mean": 30.023658854166666,
+            "min": 0.0,
+            "p01": 3.0,
+            "p50": 13.0,
+            "p99": 139.00999999999476,
+            "std": 34.47228128856264
+          },
+          "key": "image000000011",
+          "native": {
+            "dtype": "uint16",
+            "max": 4850.0,
+            "mean": 468.3398697916667,
+            "min": 0.0,
+            "p01": 45.0,
+            "p50": 209.0,
+            "p99": 2174.0099999999948,
+            "std": 540.1698519852187
+          },
+          "timestamp": 1672464127.3699288
+        },
+        "mean_absolute_difference_from_initialization": 21.730944055424562,
+        "output_index": 19,
+        "reconstruction_code_path": "results\\adaptive_first20\\reconstructed_code_values\\recon_019.png",
+        "reconstruction_display_u8": {
+          "dtype": "uint8",
+          "max": 255.0,
+          "mean": 28.78811197916667,
+          "min": 0.0,
+          "p01": 3.0,
+          "p50": 13.0,
+          "p99": 138.0,
+          "std": 33.024213604502286
+        },
+        "state_after": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.03328477040435,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2145.009999999995
+          ],
+          "std": 517.5874667324068
+        },
+        "state_before": {
+          "floor_fraction": 2.604166666666667e-05,
+          "max": 4920.0,
+          "mean": 449.1886963255036,
+          "min": 1.0000000000000004e-06,
+          "percentiles_1_50_99": [
+            46.0,
+            206.00000000000003,
+            2148.9999999999995
+          ]
+        }
+      }
+    ],
+    "state_floor": 1e-06,
+    "state_value_units": "raw reference grayscale code values; treating codes as proportional to intensity is an uncalibrated assumption",
+    "strategy": "one persistent log-intensity state initialized once in raw grayscale code values, then updated by disjoint half-open event windows",
+    "sum_of_window_event_counts": 101769,
+    "target_reference_leakage": "none; matched references are accessed only after reconstruction and only for evaluation",
+    "upper_state_clipping": "none at the display scale; display clipping is separate"
+  },
+  "urgency_thresholds": {
+    "high": 0.65,
+    "low": 0.25
+  },
+  "warm_up_windows": 4,
+  "window_bounds": {
+    "initial_ms": 2.0,
+    "max_ms": 10.0,
+    "min_ms": 0.5
+  }
+}

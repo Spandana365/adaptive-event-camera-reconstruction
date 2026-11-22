@@ -1,0 +1,19 @@
+{
+  "disk_free_bytes": 17856155648,
+  "disk_free_mb": 17028.96,
+  "disk_required_estimate_bytes": 11626905600,
+  "disk_required_estimate_mb": 11088.28,
+  "event_array_bytes": 96012991,
+  "reference_array_bytes": 61593600,
+  "persistent_state_bytes": 614400,
+  "eight_worker_buffer_bytes": 4915200,
+  "estimated_ram_bytes": 700007103,
+  "estimated_ram_mb": 667.58,
+  "preliminary_windows": 1577,
+  "measured_runs_per_configuration": 3,
+  "warmup_runs_per_configuration": 1,
+  "warmups_save_outputs": false,
+  "intermediate_images_retained": "No; code images are written and only the current window stays in memory",
+  "worker_buffers_released": "after window reduction and return",
+  "status": "PASS"
+}

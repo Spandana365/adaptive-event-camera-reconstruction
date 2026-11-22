@@ -1,0 +1,75 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+secrets.*
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+
+# Event-camera datasets and other HDF5 data
+*.h5
+*.hdf5
+
+# Generated experiment artifacts
+results/**/reconstructed/
+results/**/reconstructed_code_values/
+results/**/comparisons/
+results/**/frames/
+results/**/warmup/
+results/**/logs/
+results/**/*.png
+results/**/*.jpg
+results/**/*.jpeg
+results/**/*.bmp
+results/**/*.tif
+results/**/*.tiff
+results/**/*.gif
+
+# Preserve generated report graphs while ignoring other result images
+!results/**/graphs/
+!results/**/graphs/*.png
+!results/**/graphs/*.jpg
+!results/**/graphs/*.jpeg
+
+# Known generated inspection artifacts
+initial_things/event_plot.png
+initial_things/output.txt
+
+# Logs, temporary files, and editor/OS artifacts
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build/package and dependency caches
+build/
+dist/
+*.egg-info/
+node_modules/
+.npm/

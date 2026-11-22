@@ -1,0 +1,247 @@
+{
+  "worker_counts": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "measured_repetition_count": 3,
+  "warmup_count": 1,
+  "warmup_excluded": true,
+  "actual_events": 5647823,
+  "actual_adaptive_windows": 1577,
+  "summary": {
+    "1": {
+      "Total_Execution_Time": {
+        "mean": 287.7184182666542,
+        "std": 5.312012350441616
+      },
+      "Reconstruction_Time": {
+        "mean": 30.13131363330467,
+        "std": 0.5698215104865347
+      },
+      "Event_Accumulation_Time": {
+        "mean": 1.036988266654589,
+        "std": 0.05011251253933214
+      },
+      "Chunk_Allocation_Time": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "Buffer_Reduction_Time": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "Chunk_Scheduling_Time": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "Controller_Time": {
+        "mean": 28.224281433323085,
+        "std": 0.5913153426395825
+      },
+      "Data_Loading_Time": {
+        "mean": 0.9391419000000193,
+        "std": 0.2125345779397354
+      },
+      "Image_Saving_Time": {
+        "mean": 39.788694633338004,
+        "std": 0.8544894347362977
+      },
+      "Evaluation_Time": {
+        "mean": 216.85926810001152,
+        "std": 4.007548867580636
+      },
+      "CPU_Utilization": {
+        "mean": 90.36666666666667,
+        "std": 0.2886751345948129
+      },
+      "Peak_Memory_MB": {
+        "mean": 172.49088541666666,
+        "std": 2.6605558314676974
+      },
+      "Adaptive_Windows": 1577,
+      "Processed_Events": 5647823,
+      "Mean_PSNR": 35.31361880745286,
+      "Mean_SSIM": 0.7175043800184734,
+      "Mean_Base_PSNR": 34.81816109482444,
+      "Mean_Base_SSIM": 0.692401256463008,
+      "Speedup": 1.0,
+      "Parallel_Efficiency": 100.0
+    },
+    "2": {
+      "Total_Execution_Time": {
+        "mean": 314.03906443329987,
+        "std": 36.914808514374705
+      },
+      "Reconstruction_Time": {
+        "mean": 39.289721266632114,
+        "std": 5.739080010247263
+      },
+      "Event_Accumulation_Time": {
+        "mean": 6.633333033326987,
+        "std": 0.9043726593166393
+      },
+      "Chunk_Allocation_Time": {
+        "mean": 5.727097133334003,
+        "std": 0.8890745221942925
+      },
+      "Buffer_Reduction_Time": {
+        "mean": 0.8154124333374663,
+        "std": 0.06868280155631036
+      },
+      "Chunk_Scheduling_Time": {
+        "mean": 5.317862133317855,
+        "std": 0.7786289644213028
+      },
+      "Controller_Time": {
+        "mean": 31.65795486664835,
+        "std": 4.765785914405801
+      },
+      "Data_Loading_Time": {
+        "mean": 0.8304101000000325,
+        "std": 0.05980560616881734
+      },
+      "Image_Saving_Time": {
+        "mean": 38.46169140001742,
+        "std": 3.992416016610467
+      },
+      "Evaluation_Time": {
+        "mean": 223.59686996666096,
+        "std": 25.747285756642196
+      },
+      "CPU_Utilization": {
+        "mean": 91.69999999999999,
+        "std": 1.3076696830621979
+      },
+      "Peak_Memory_MB": {
+        "mean": 170.30859375,
+        "std": 16.652262655942586
+      },
+      "Adaptive_Windows": 1577,
+      "Processed_Events": 5647823,
+      "Mean_PSNR": 35.31361880745286,
+      "Mean_SSIM": 0.7175043800184734,
+      "Mean_Base_PSNR": 34.81816109482444,
+      "Mean_Base_SSIM": 0.692401256463008,
+      "Speedup": 0.7669006717768325,
+      "Parallel_Efficiency": 38.34503358884162
+    },
+    "4": {
+      "Total_Execution_Time": {
+        "mean": 845.9103827666798,
+        "std": 58.318441502111675
+      },
+      "Reconstruction_Time": {
+        "mean": 116.32809673333577,
+        "std": 2.202753002562668
+      },
+      "Event_Accumulation_Time": {
+        "mean": 27.05980833331523,
+        "std": 1.855322347557796
+      },
+      "Chunk_Allocation_Time": {
+        "mean": 52.753316699966184,
+        "std": 4.920263673757181
+      },
+      "Buffer_Reduction_Time": {
+        "mean": 2.0422601999986605,
+        "std": 0.05646405912335604
+      },
+      "Chunk_Scheduling_Time": {
+        "mean": 23.54802046669344,
+        "std": 1.7098166080504442
+      },
+      "Controller_Time": {
+        "mean": 86.59964963333611,
+        "std": 0.8844201506505612
+      },
+      "Data_Loading_Time": {
+        "mean": 2.697818799999974,
+        "std": 1.6467676802067497
+      },
+      "Image_Saving_Time": {
+        "mean": 82.0579217666885,
+        "std": 3.559159379312997
+      },
+      "Evaluation_Time": {
+        "mean": 566.4829480999973,
+        "std": 44.36979899896226
+      },
+      "CPU_Utilization": {
+        "mean": 93.7,
+        "std": 1.7000000000000028
+      },
+      "Peak_Memory_MB": {
+        "mean": 98.18359375,
+        "std": 15.755300447389127
+      },
+      "Adaptive_Windows": 1577,
+      "Processed_Events": 5647823,
+      "Mean_PSNR": 35.31361880745286,
+      "Mean_SSIM": 0.7175043800184734,
+      "Mean_Base_PSNR": 34.81816109482444,
+      "Mean_Base_SSIM": 0.692401256463008,
+      "Speedup": 0.2590200861136417,
+      "Parallel_Efficiency": 6.475502152841043
+    },
+    "8": {
+      "Total_Execution_Time": {
+        "mean": 941.6551141998674,
+        "std": 15.152314418799273
+      },
+      "Reconstruction_Time": {
+        "mean": 131.85114733328737,
+        "std": 3.2217895869657682
+      },
+      "Event_Accumulation_Time": {
+        "mean": 39.44186199998209,
+        "std": 0.67741456288636
+      },
+      "Chunk_Allocation_Time": {
+        "mean": 83.24354419993385,
+        "std": 1.165015676344713
+      },
+      "Buffer_Reduction_Time": {
+        "mean": 2.9907372333448925,
+        "std": 0.11523197005137714
+      },
+      "Chunk_Scheduling_Time": {
+        "mean": 34.63638329998927,
+        "std": 0.531752261705554
+      },
+      "Controller_Time": {
+        "mean": 89.61325886664297,
+        "std": 2.7740045651211958
+      },
+      "Data_Loading_Time": {
+        "mean": 3.2393495666662298,
+        "std": 0.3522609559270566
+      },
+      "Image_Saving_Time": {
+        "mean": 85.78137799998451,
+        "std": 1.2544005961051528
+      },
+      "Evaluation_Time": {
+        "mean": 599.9125745666612,
+        "std": 9.742572699305356
+      },
+      "CPU_Utilization": {
+        "mean": 93.83333333333333,
+        "std": 1.6623276853055564
+      },
+      "Peak_Memory_MB": {
+        "mean": 110.50520833333333,
+        "std": 5.37681418859578
+      },
+      "Adaptive_Windows": 1577,
+      "Processed_Events": 5647823,
+      "Mean_PSNR": 35.31361880745286,
+      "Mean_SSIM": 0.7175043800184734,
+      "Mean_Base_PSNR": 34.81816109482444,
+      "Mean_Base_SSIM": 0.692401256463008,
+      "Speedup": 0.22852522896247612,
+      "Parallel_Efficiency": 2.8565653620309517
+    }
+  }
+}
